@@ -7,9 +7,13 @@
     
   </video>
   <script>
-    let vid = document.getElementById('saasVideo');
-    vid.muted = !vid.muted;
-    vid.play();
+    var readyState = document.getElementById("myVideo").readyState;
+    if(readyState == 4){
+      let vid = document.getElementById('saasVideo');
+      vid.muted = !vid.muted;
+      vid.play();
+    }
+    
 </script>
   
 </body>
