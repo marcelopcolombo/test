@@ -33,6 +33,7 @@ function init () {
     video.id = 'saasVideo';
     video.muted = true;
     video.playsinline = true;
+    videoElement.setAttribute('webkit-playsinline', 'webkit-playsinline');
     video.setAttribute('allow', 'autoplay');
     video.setAttribute('autoplay', 'true');
     video.setAttribute('loop', 'true');
