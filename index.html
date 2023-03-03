@@ -7,12 +7,13 @@
     
   </video>
   <script>
-    var readyState = document.getElementById("saasVideo").readyState;
-    if(readyState == 4){
-      let vid = document.getElementById('saasVideo');
-      vid.muted = !vid.muted;
-      vid.play();
+    let obj = document.getElementById('saasVideo');
+    obj.addEventListener("loadeddata", () => {
+    if (obj.readyState >= 2) {
+      obj.muted = !obj.muted;
+      obj.play();
     }
+})
     
 </script>
   
