@@ -2,7 +2,7 @@ console.log('|||||||||| worked! ||||||||||')
 
 function init () {
     console.log('|||||||||| init! ||||||||||')
-    
+    let doc = document;
     const linkCss = document.createElement('link');
     linkCss.rel  = 'stylesheet';
     linkCss.type = 'text/css';
@@ -25,7 +25,7 @@ function init () {
         iframe.setAttribute('width', '400px');
         iframe.setAttribute('height', '710px');
         iframe.setAttribute('frameBorder', '0');
-        document.body.appendChild(iframe);
+        doc.body.appendChild(iframe);
     });
     document.body.appendChild(divVideoWrapper);
 
