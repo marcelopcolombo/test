@@ -45,3 +45,4 @@ function init () {
 }
 
 init();
+//https://developer.chrome.com/blog/autoplay/

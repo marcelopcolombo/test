@@ -12,6 +12,7 @@
     if (obj.readyState == 4) {
       obj.play().then(function () {
         obj.muted = false;
+        obj.volume = 0.5;
         console.log("PLAY!")
         console.log(obj)
       })
