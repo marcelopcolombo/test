@@ -35,6 +35,7 @@ function init () {
     video.src = 'https://test-omega-steel-28.vercel.app/videotest.mp4';
     video.id = 'saasVideo';
     video.muted = true;
+    video.playsinline = true;
     video.setAttribute('allow', 'autoplay');
     video.setAttribute('autoplay', 'true');
     video.setAttribute('loop', 'true');
