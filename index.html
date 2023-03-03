@@ -11,7 +11,7 @@
     obj.addEventListener("loadeddata", () => {
     if (obj.readyState >= 2) {
       obj.muted = false;
-      video.volume = 0.2;
+      obj.volume = 0.2;
       obj.play();
     }
 })
