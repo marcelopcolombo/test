@@ -1,0 +1,9 @@
+.video-wrapper {
+    width: 200px;
+    height: 305px;
+    overflow: hidden;
+}
+
+.display-none {
+    display: none;
+}
