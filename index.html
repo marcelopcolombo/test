@@ -18,7 +18,7 @@
     }
       
     obj.addEventListener("loadeddata", () => {
-    if (obj.readyState == 4) {
+    if (obj.readyState >= 2) {
       obj.play().then(function () {
         obj.muted = false;
         obj.volume = 0.5;
