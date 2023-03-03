@@ -7,7 +7,9 @@
     
   </video>
   <script>
-    document.getElementById('saasVideo').play();
+    let vid = document.getElementById('saasVideo');
+    vid.muted = !vid.muted;
+    vid.play();
 </script>
   
 </body>
