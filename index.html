@@ -2,7 +2,7 @@
 <head>
 </head>
 <body>
-  <video loop autoplay id="saasVideo" muted>
+  <video loop autoplay id="saasVideo">
     <source src="videotest.mp4" type="video/mp4">
     
   </video>
@@ -11,8 +11,6 @@
     obj.addEventListener("loadeddata", () => {
     if (obj.readyState == 4) {
       obj.play().then(function () {
-        obj.muted = false;
-        obj.volume = 0.9;
         console.log("PLAY!")
         console.log(obj)
       })
