@@ -10,9 +10,12 @@
     let obj = document.getElementById('saasVideo');
     obj.addEventListener("loadeddata", () => {
     if (obj.readyState >= 2) {
-      obj.muted = false;
-      obj.volume = 0.2;
-      obj.play();
+      obj.play().then(function () {
+        obj.muted = false;
+        obj.volume = 0.2;
+      })
+      
+      
     }
 })
     
