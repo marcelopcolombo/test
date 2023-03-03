@@ -9,7 +9,7 @@
   <script>
     let obj = document.getElementById('saasVideo');
     obj.addEventListener("loadeddata", () => {
-    if (obj.readyState >= 2) {
+    if (obj.readyState == 4) {
       obj.play().then(function () {
         obj.muted = false;
         obj.volume = 0.2;
