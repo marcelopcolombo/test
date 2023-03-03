@@ -6,7 +6,7 @@ function init () {
     const linkCss = document.createElement('link');
     linkCss.rel  = 'stylesheet';
     linkCss.type = 'text/css';
-    linkCss.href = 'https://test.vercel.app/saas_styles.css';
+    linkCss.href = 'https://test-omega-steel-28.vercel.app/saas_styles.css';
     linkCss.media = 'all';
     document.head.appendChild(linkCss);
 
@@ -17,7 +17,7 @@ function init () {
         divVideoWrapper.className = 'display-none';;
         
         let iframe = document.createElement('iframe');
-        iframe.src = 'https://test.vercel.app';
+        iframe.src = 'https://test-omega-steel-28.vercel.app';
         iframe.id = 'saasVideo';
         iframe.setAttribute('allow', 'autoplay');
         iframe.setAttribute('autoplay', 'true');
@@ -32,7 +32,7 @@ function init () {
 
 
     let video = document.createElement('video');
-    video.src = 'https://test.vercel.app/videotest.mp4';
+    video.src = 'https://test-omega-steel-28.vercel.app/videotest.mp4';
     video.id = 'saasVideo';
     iframe.setAttribute('allow', 'autoplay');
     video.setAttribute('autoplay', 'true');
