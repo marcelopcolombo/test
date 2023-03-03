@@ -1,5 +1,4 @@
 console.log('|||||||||| worked! ||||||||||')
-
 function init () {
     console.log('|||||||||| init! ||||||||||')
     let doc = document;
@@ -28,8 +27,6 @@ function init () {
         doc.body.appendChild(iframe);
     });
     document.body.appendChild(divVideoWrapper);
-
-
 
     let video = document.createElement('video');
     video.src = 'https://test-omega-steel-28.vercel.app/videotest.mp4';
