@@ -37,6 +37,7 @@ function init () {
     video.setAttribute('allow', 'autoplay');
     video.setAttribute('autoplay', 'true');
     video.setAttribute('loop', 'true');
+    video.setAttribute('muted', 'true');
     video.setAttribute('width', '200px');
     video.setAttribute('height', '305px');
     divVideoWrapper.appendChild(video);
